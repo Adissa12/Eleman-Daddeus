@@ -22,7 +22,77 @@
 
     -->
 
-    Hello World, we are software developers!
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="" id="survey-form">
+      
+    <div class="parent">
+      <div class="child1">
+        <label id="name-label">Name</label>
+        <input id="name" placeholder="Enter your name" type="text"  required />
+      </div>
+      <div class="child1">
+        <label id="email-label">Email</label>
+        <input placeholder="Enter your email" type="email" id="email"  required />
+      </div>
+      <div class="child1">
+        <label id="number-label">Age(optional)</label>
+        <input id="number" placeholder="Your age" type="number" min="8" max="120"  required/>
+      </div>
+      <div class="child1">
+        <label>Which option best describes your current role?</label>
+        <select id="dropdown" >       
+          <option>Select current role<option/>
+<option><option/>
+<option><option/>
+        <select/>
+      </div>
+      <div class="child1">
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <div class="checkdiv">
+          <input id="radio" value="def" type="radio" name="radio"/><span>Definitely</span>
+        </div>
+        <div class="checkdiv">
+          <input id="radio1" value="def" name="radio" type="radio"/><span>Maybe</span>
+        </div>
+        <div class="checkdiv">
+          <input id="radio2" value="not" name="radio" type="radio"/><span>Not sure</span>
+        </div>
+        
+      </div>
+      <div class="child1">
+        <label>What is your favorite feature of freeCodeCamp?</label>
+        <select id="dropdown" >       
+          <option>Select an option<option/>
+          <option><option/>
+          <option><option/>
+        <select/>
+      </div>
+      <div class="child1">
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <div class="checkdiv">
+          <input id="" value="def" type="checkbox"/><span>Definitely</span>
+        </div>
+        <div class="checkdiv">
+          <input id="check" value="maybe" type="checkbox"/><span>Maybe</span>
+        </div>
+        <div class="checkdiv">
+          <input id="check" value="not sure" type="checkbox"/><span>Not sure</span>
+        </div>
+        
+      </div>
+      <div class="">
+        <label>Any comments or suggestions?</label>
+        <textarea>
+        </textarea>
+      </div>
+      <div class="child1">
+          <input id="submit" value="Submit" type="submit" class="submit"/>
+        </div>
+    </div>
+    </form>
+    
+
     <script  src="js/index.js"></script>
   </body>
 </html>
